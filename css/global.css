@@ -3,18 +3,17 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-    --accent-color: #a5c7cf;
     --text-color: black;
     --border-color: black;
-    scroll-behavior: smooth;
+    --accent-color: #a5c7cf;
     font-family: "DotGothic16", sans-serif;
-    color: var(--text-color);
+    scroll-behavior: smooth;
 }
 
 img {
@@ -24,5 +23,6 @@ img {
 
 .container {
     max-width: 1200px;
+    padding: 0 15px;
     margin: auto;
 }
